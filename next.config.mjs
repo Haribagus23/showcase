@@ -1,12 +1,12 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  typescript: {
-    ignoreBuildErrors: true,
-  },
+  output: "export", // ⬅️ penting
   images: {
     unoptimized: true,
   },
-  turbo: false, // ← Matikan Turbopack, pakai Webpack
+  typescript: {
+    ignoreBuildErrors: true,
+  },
 };
 
 export default nextConfig;

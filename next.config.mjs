@@ -6,6 +6,7 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-}
+  turbo: false, // ← Matikan Turbopack, pakai Webpack
+};
 
-export default nextConfig
+export default nextConfig;
